@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de convenio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/ico/arroyo.png" type="image/x-icon">
+</head>
+<body>
+    <h1>INFORMACIÓN DE CONVENIO VIGENTE</h1>
+    <div class="grid-container">
+        <section class="form-section">
+            <div class="tittle-container"><h3>FILTRO</h3></div>
+            <div class="label-input-container">
+                <label for="type">TIPO:</label>
+                <select id="type-select" name="type" required>
+                    <option value="" disabled selected>Seleccione una filtro</option>
+                    <option value="cuenca">Cuenca</option>
+                    <option value="municipio">Municipio</option>
+                    <option value="entidad">Entidad</option>
+                    <option value="supervisorTerritorial">Supervisor territorial</option>
+                    <option value="responsableCarga">Responsable de reporte</option>
+                </select>
+            </div>
+            <div class="label-input-container">
+                <label for="item">ITEM:</label>
+                <select  id="item-select" name="item" required>
+                    <option value="" disabled selected>Seleccione un criterio</option>
+                </select>
+            </div>        
+            <div id="autocomplete-container"></div>
+        </section>
+        
+        <section class="data-section">
+            <div class="tittle-container"><h3>DATOS DE CONVENIO</h3></div>
+            <div class="label-input-container">
+                <label for="water-basin">CUENCA:</label>
+                <input type="text" name="water-basin" id="data-water-basin">
+            </div>
+            <div class="label-input-container">
+                <label for="municipality">MUNICIPALIDAD:</label>
+                <input type="text" name="municipality" id="data-municipality">
+            </div>
+            <div class="label-input-container">
+                <label for="entity">ENTIDAD:</label>
+                <input type="text" name="entity" id="data-entity">
+            </div>
+            <div class="label-input-container">
+                <label for="workers">TRABAJADORES:</label>
+                <input type="text" name="workers" id="data-workers">
+            </div>
+            <div class="label-input-container">
+                <label for="meters">METROS DE CAUCE:</label>
+                <input type="text" name="meters" id="data-meters">
+            </div>
+        </section>
+
+        <section class="map-section" style="padding-top:16px">
+            <div class="tittle-container"><h3>MAPA DE OBRA</h3></div>
+            <div class="iframe-container">
+                <iframe id="iframe-map" src="" frameborder="0"></iframe>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&loading=async&callback=initMap&v=weekly"></script>
+    <script src="code.js"></script>
+</body>
+</html>
