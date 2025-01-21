@@ -1,3 +1,12 @@
+window.addEventListener('load', function() {
+    Swal.fire({
+        title: 'Información importante',
+        text: 'La información presentada en esta página relacionada con nombres de agentes, entidades y cualquier otro dato sensible, fue modificada para no comprometer los datos oficiales',
+        icon: 'info',
+        confirmButtonText: 'Ok'
+      });
+});
+
 document.getElementById('type-select').addEventListener('change', updateItems);
 document.getElementById('item-select').addEventListener('change', updateActiveWork);
 //document.getElementById('autocomplete-container').querySelector('p');
