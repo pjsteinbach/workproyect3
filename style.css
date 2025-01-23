@@ -22,6 +22,7 @@ body{
     display: grid;
     place-items: center;
     height: 100vh;
+    font-family: var(--body-font);
     color: var(--dark-color);
     background-color: var(--light-color);
     scrollbar-width: thin; scrollbar-color: var(--secondary-color) var(--light-color);
@@ -171,5 +172,33 @@ input, select{
 }
 
 .map-section{
+    position: relative;
     padding-top: 20px;
+}
+
+#download-container{
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 140px;
+    gap: 4px;
+    top: -16px;
+    right: 12px;
+    text-decoration: none;
+    background-color: var(--light-gray-color);
+    cursor: pointer;
+}
+
+#download-container span{
+    color: var(--dark-gray-color);
+    font-size: 1.2rem;
+}
+
+#download-container p{
+    font-family: var(--body-font);
+    color: var(--dark-gray-color);
+    font-size: .8rem;
 }
