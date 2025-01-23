@@ -1,12 +1,3 @@
-window.addEventListener('load', function() {
-    Swal.fire({
-        title: 'Información importante',
-        text: 'La información presentada en esta página relacionada con nombres de agentes, entidades y cualquier otro dato sensible, fue modificada para no comprometer los datos oficiales',
-        icon: 'info',
-        confirmButtonText: 'Ok'
-      });
-});
-
 document.getElementById('type-select').addEventListener('change', updateItems);
 document.getElementById('item-select').addEventListener('change', updateActiveWork);
 //document.getElementById('autocomplete-container').querySelector('p');
@@ -76,7 +67,6 @@ function executeFunction(pTag) {
         document.getElementById('data-workers').value = result.trabajadores;
         document.getElementById('data-meters').value = result.metros;
 		document.getElementById('iframe-map').src = result.hrefMap;
-		document.getElementById('iframe-map').style.display = 'block';
         
     } else {
         document.getElementById('data-water-basin').value = '';
@@ -84,7 +74,6 @@ function executeFunction(pTag) {
         document.getElementById('data-entity').value = '';
         document.getElementById('data-workers').value = '';
         document.getElementById('data-meters').value = '';
-        document.getElementById('iframe-map').style.display = 'none';
         document.getElementById('iframe-map').src = '';
     }
 }
