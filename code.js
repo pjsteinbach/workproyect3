@@ -1,6 +1,5 @@
 document.getElementById('type-select').addEventListener('change', updateItems);
 document.getElementById('item-select').addEventListener('change', updateActiveWork);
-//document.getElementById('autocomplete-container').querySelector('p');
 
 function updateItems() {
     const typeSelected = document.getElementById('type-select').value;
@@ -87,7 +86,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-88560027-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-143-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '20',
 		metros: '3770',
@@ -103,7 +102,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-65683937-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-887-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '20',
 		metros: '3000',
@@ -119,7 +118,7 @@ const obras = [
 		movimientoSocial: 'Sin afiliación',
 		expediente: 'EX-2024-61105174-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-544-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '25',
 		metros: '6600',
@@ -135,7 +134,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-97419780-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-914-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '25',
 		metros: '5700',
@@ -151,7 +150,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-69848716-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-206-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '30',
 		metros: '4430',
@@ -167,7 +166,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-99767007-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-132-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '25',
 		metros: '7300',
@@ -183,7 +182,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-29348395-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-857-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '25',
 		metros: '6310',
@@ -199,7 +198,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-91437340-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-561-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '25',
 		metros: '5800',
@@ -471,7 +470,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-51677166-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-176-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '20',
 		metros: '6000',
@@ -487,7 +486,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-25010037-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-281-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Rivero, Ismael',
 		trabajadores: '20',
 		metros: '3000',
@@ -1287,7 +1286,7 @@ const obras = [
 		movimientoSocial: 'Movimiento de la Justicia Social',
 		expediente: 'EX-2024-38014159-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-633-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '35',
 		metros: '6000',
@@ -1303,7 +1302,7 @@ const obras = [
 		movimientoSocial: 'Sin afiliación',
 		expediente: 'EX-2024-48252047-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-788-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '35',
 		metros: '1750',
@@ -1319,7 +1318,7 @@ const obras = [
 		movimientoSocial: 'Sin afiliación',
 		expediente: 'EX-2024-91511807-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-266-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '35',
 		metros: '1570',
@@ -1335,7 +1334,7 @@ const obras = [
 		movimientoSocial: 'Sin afiliación',
 		expediente: 'EX-2024-16013730-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-227-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '35',
 		metros: '1850',
@@ -1351,7 +1350,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-32211060-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-824-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '30',
 		metros: '1000',
@@ -1367,7 +1366,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-84604613-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-617-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '30',
 		metros: '1700',
@@ -1383,7 +1382,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-86458216-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-650-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '30',
 		metros: '2400',
@@ -1399,7 +1398,7 @@ const obras = [
 		movimientoSocial: 'Cooperativas Unidas de Buenos Aires',
 		expediente: 'EX-2024-93419408-GDEBA-DFNEMIYSP',
 		resolucion: 'RESO-2024-714-NMIYSPGP',
-		"supervisorTerritorial: 'Barrios, Alejandro	',"
+		supervisorTerritorial: 'Barrios, Alejandro',
 		responsableCarga: 'Farías, Elsa',
 		trabajadores: '30',
 		metros: '2330',
