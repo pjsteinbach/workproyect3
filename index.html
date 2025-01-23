@@ -19,6 +19,7 @@
                     <option value="cuenca">Cuenca</option>
                     <option value="municipio">Municipio</option>
                     <option value="entidad">Entidad</option>
+                    <option value="movimientoSocial">Agrupación</option>
                     <option value="supervisorTerritorial">Supervisor territorial</option>
                     <option value="responsableCarga">Responsable de reporte</option>
                 </select>
@@ -39,19 +40,31 @@
                 <input type="text" name="water-basin" id="data-water-basin">
             </div>
             <div class="label-input-container">
-                <label for="municipality">MUNICIPALIDAD:</label>
+                <label for="entity">ENTIDAD:</label>
+                <input type="text" name="entity" id="data-entity">
+            </div>
+            <div class="label-input-container">
+                <label for="exp">EXPEDIENTE:</label>
+                <input type="text" name="exp" id="data-exp">
+            </div>
+            <div class="label-input-container">
+                <label for="reso">RESOLUCIÓN:</label>
+                <input type="text" name="reso" id="data-reso">
+            </div>
+            <div class="label-input-container">
+                <label for="municipality">MUNICIPIO:</label>
                 <input type="text" name="municipality" id="data-municipality">
             </div>
             <div class="label-input-container">
-                <label for="entity">ENTIDAD:</label>
-                <input type="text" name="entity" id="data-entity">
+                <label for="social-movement">AGRUPACIÓN:</label>
+                <input type="text" name="social-movement" id="data-social-movement">
             </div>
             <div class="label-input-container">
                 <label for="workers">TRABAJADORES:</label>
                 <input type="text" name="workers" id="data-workers">
             </div>
             <div class="label-input-container">
-                <label for="meters">METROS DE CAUCE:</label>
+                <label for="meters">METROS:</label>
                 <input type="text" name="meters" id="data-meters">
             </div>
         </section>
@@ -64,7 +77,6 @@
         </section>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&loading=async&callback=initMap&v=weekly"></script>
     <script src="code.js"></script>
 </body>
