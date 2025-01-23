@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
-
 :root{
     --light-color: #ebf2f1;
     --dark-color: #181D26;
@@ -13,13 +11,6 @@
     --body-font: "Lexend", sans-serif;
     --width-section: 880px;
 }
-
-/*
-font-family: "Nunito", serif;
-font-family: "Roboto Mono", serif;
-font-family: "Lexend", serif;
-}
-*/
 
 *{
     margin: 0;
@@ -40,7 +31,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 2fr;
-    gap: 8px;
+    gap: 20px;
     width: 80vw;
     max-height: 80vh;
 }
@@ -93,7 +84,7 @@ section{
     width: 160px;
     height: 28px;
     left: 12px;
-    top: -16px;
+    top: -14px;
     background-color: var(--secondary-color);
 }
 
@@ -163,7 +154,6 @@ input, select{
     background-color: var(--light-gray-color);
 }
 
-
 #autocomplete-container .active{
     font-weight: 500;
     background-color: var(--dark-gray-color);
@@ -175,8 +165,11 @@ input, select{
 }
 
 #iframe-map{
-    display: none;
     height: 100%;
     width: 100%;
-    background-color: var(--secondary-color);
+    background-color: var(--light-color);
+}
+
+.map-section{
+    padding-top: 20px;
 }
