@@ -9,7 +9,7 @@ window.onload = function() {
 document.getElementById('download-container').onclick = () => {
 	Swal.fire({
 	  title: 'Fichas de Cauce',
-	  text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resgaurdar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a un archivo dentro de una carpeta compartida con información detallada de los tramos del convenio seleccionado.',
+	  text: 'Este proyecto es una copia modificada del proyecto original utilizado en el ámbito laboral. Para resguardar la información utilizada, se anularon algunas funciones. En este caso esta acción te redirigiría a un archivo dentro de una carpeta compartida con información detallada de los tramos del convenio seleccionado.',
 	  icon: 'info',
 	  confirmButtonText: 'Ok'
 	});
